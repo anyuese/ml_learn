@@ -166,6 +166,8 @@ close_neighbor, centers = kmeans(4,points)
 centers_d = dict(enumerate(centers))
 ic(close_neighbor)
 ic(centers_d)
+
+# 清空画布
 plt.clf()
 draw_city(city_location)
 draw_city(centers_d)

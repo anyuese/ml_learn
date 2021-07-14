@@ -67,6 +67,6 @@ def revnue_solution_cache(n):
     return max_profit
 
 
-ic(revnue_solution_cache(200))
-ic(SOLUTIONS)
-ic(parse_solution(SOLUTIONS,200))
+# ic(revnue_solution_cache(200))
+# ic(SOLUTIONS)
+# ic(parse_solution(SOLUTIONS,200))

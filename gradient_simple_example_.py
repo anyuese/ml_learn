@@ -1,6 +1,5 @@
 import random
 import time
-
 import matplotlib.pyplot as plt
 import numpy as np
 from icecream import ic
@@ -30,7 +29,7 @@ for i in range(100):
 
     # 可视化查看效果
     if i%4 ==0:
-        plt.cla()
+        plt.clf()
         plt.plot(x_l, w * x_l + b, c='black')
         plt.scatter(x, y, marker="*", c='red')
         plt.text(1, 4, 'Loss={0}'.format(loss(x, w, b, y)), fontdict={'size': 10, 'color': 'red'})
